@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #4f62ac;
+}
+
+.calculadora{
+    width: 320px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 15px 10px 0px 5px rgba(0,0,0,0.2);
+}
+
+.display{
+    width: 320px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.calculadora input{
+    text-align: right;
+    padding-right: 30px;
+    width: 288px;
+    height:100%;
+    font-size: 39px;
+    outline: 0px;
+    border: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.botones{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 320px;
+}
+
+button{
+    color:rgba(77, 77, 77, 0.8);
+    background-color: white;
+    float: left;
+    margin: 0 auto;
+    border: none;
+    width: 73px;
+    height: 60px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+button:focus{
+    outline-style: none;
+    border: none;
+    outline: none;
+}
+.rodape{
+    padding-top: 30px;
+    background-color:#5f5e70;
+}
+.rodape button{
+    color: white;
+    background-color: #5f5e70;
+}
+
+#igual{
+    transform: scale(1.1);
+    color: white;
+    height: 70px;
+    background-color: #ff5068;
+}
+
+#limpar{
+    text-align: left;
+    padding-left:60px;
+    width: 230px;
+}
+
+#zero{
+    width: 100px;
+}
+
